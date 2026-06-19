@@ -17,3 +17,29 @@ h1 {
     padding: 20px;
     text-align: center;
 }
+
+.navibar{
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    padding: 15px;
+    background-color: cadetblue;
+    text-align: center;
+}
+
+.navibar a{
+    color: brown;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.navibar a:hover{
+    background-color: rgb(68, 201, 206);
+    color: blue;
+    font-size: 20px;
+}
+
+body{
+    margin: 0px;
+}
