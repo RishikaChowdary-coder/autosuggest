@@ -13,25 +13,16 @@
         <a href="/pages/toggle.html">Toggle</a>
         <a href="">Random User</a>
     </div>
-    <input type="checkbox" id="toggle">
-
-<div class="card">
-
-    <div class="male">
-        <img src="../images/john.png" alt="User image">
-        <h2>John Doe</h2>
-        <p>Male</p>
+    <center>
+    <div class="card">
+        <img id="user-img"
+        src="../images/john.png" alt="User image">
+        <h2 id="user-name">John Doe</h2>
+        <p id="user-gender">Male</p>
+        <button onclick="toggle()">Toggle</button>
     </div>
-
-    <div class="female">
-        <img src="../images/johndoe.png" alt="User image">
-        <h2>Jane Doe</h2>
-        <p>Female</p>
-    </div>
-
-    <label for="toggle" class="btn">Toggle</label>
-
-</div>
+    </center>
     <script src="js/index.js"></script>
+    <script src="../js/toggle.js"></script>
 </body>
 </html>

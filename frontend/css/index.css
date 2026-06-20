@@ -49,17 +49,18 @@ body{
     width: 300px;
     text-align: center;
     margin-top: 100px;
-    margin-left: 700px;
 }
 .card img{
     width: 100%;
 }
 
+.card button{
+    margin-bottom: 20px;
+}
 
 
 
-
-#toggle{
+/*#toggle{
     display:none;
 }
 
@@ -83,4 +84,4 @@ body{
     cursor:pointer;
     margin:10px;
     text-align: center;
-}
+}*/
