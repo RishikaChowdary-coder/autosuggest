@@ -43,3 +43,43 @@ h1 {
 body{
     margin: 0px;
 }
+
+.card{
+    border: 2px solid black;
+    width: 300px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 700px;
+}
+.card img{
+    width: 100%;
+}
+
+
+
+
+
+#toggle{
+    display:none;
+}
+
+.female{
+    display:none;
+}
+
+#toggle:checked + .card .male{
+    display:none;
+}
+
+#toggle:checked + .card .female{
+    display:block;
+}
+
+.btn{
+    display:inline-block;
+    padding:10px 20px;
+    background:cadetblue;
+    color:white;
+    cursor:pointer;
+    margin:10px;
+}
