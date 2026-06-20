@@ -1,0 +1,41 @@
+.gear{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+.pill{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.Main-Content{
+    text-align: center;
+    padding: 50px;
+}
+
+.bullet{
+    color: green;
+}
+
+.w1{
+    color: blueviolet;
+}
+
+.tagline{
+    color: darkgray;
+}
+
+.searchbar{
+    border-radius: 8px;       
+    border: 1px solid #ccc;    
+    padding: 8px 100px 8px 30px;        
+    outline: none; 
+    text-align: left;
+}
+
+.lens{
+    position: relative;
+    left: 30px;
+}
